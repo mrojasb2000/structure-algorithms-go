@@ -8,8 +8,14 @@ import "fmt"
 
 // gets the power series of integers a and returns tuple of square of a
 // and cube of a
-func powerSeries(a int) (int, int) {
-	return a * a, a * a * a
+//func powerSeries(a int) (int, int) {
+//	return a * a, a * a * a
+//}
+
+func powerSeries(a int) (square int, cube int) {
+	square = a * a
+	cube = a * a * a
+	return
 }
 
 // main method
