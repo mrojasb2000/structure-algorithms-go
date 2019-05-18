@@ -29,7 +29,8 @@ func (iheap *IntegerHeap) Push(heapintf interface{}) {
 func (iheap *IntegerHeap) Pop() interface{} {
 	var n int
 	var x1 int
-	var previous IntegerHeap = *iheap
+	//var previous IntegerHeap = *iheap
+	var previous = *iheap
 	n = len(previous)
 	x1 = previous[n-1]
 	*iheap = previous[0 : n-1]
@@ -38,7 +39,8 @@ func (iheap *IntegerHeap) Pop() interface{} {
 
 // main method
 func main() {
-	var intHeap *IntegerHeap = &IntegerHeap{1, 4, 5}
+	//var intHeap *IntegerHeap = &IntegerHeap{1, 4, 5}
+	var intHeap = &IntegerHeap{1, 4, 5}
 
 	heap.Init(intHeap)
 	heap.Push(intHeap, 2)
