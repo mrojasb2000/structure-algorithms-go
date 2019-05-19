@@ -18,3 +18,4 @@ Examples Data Structures and Algorithms with Golang
  * Tuples
  * Heaps
  * Adapter Patterns
+ * Bridge Patterns
