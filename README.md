@@ -17,3 +17,4 @@ Examples Data Structures and Algorithms with Golang
  * Lists
  * Tuples
  * Heaps
+ * Adapter Patterns
