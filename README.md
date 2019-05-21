@@ -21,3 +21,4 @@ Examples Data Structures and Algorithms with Golang
  * Bridge Patterns
  * Composite Patterns
  * Decorator Patterns
+ * Facade Patterns
