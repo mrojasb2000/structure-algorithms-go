@@ -21,13 +21,13 @@ func (account *Account) create(accountType string) *Account {
 	return account
 }
 
-//Account class method getById given id string
+//Account class method getById - get account given id string
 func (account *Account) getById(id string) *Account {
 	fmt.Println("getting account by id")
 	return account
 }
 
-// Account class method deleteId given id string
+// Account class method deleteId - deleteId given id string
 func (account *Account) deleteById(id string) {
 	fmt.Println("delete account by id")
 }
@@ -52,7 +52,7 @@ type Transaction struct {
 	destAccount string
 }
 
-// Transaction class method create - create Transaction given src and dest account name
+// Transaction class method create - create Transaction given src and dest account name and amount
 func (transaction *Transaction) create(srcAccountId string, destAccountId string, amount float32) *Transaction {
 	fmt.Println("create transaction")
 	transaction.srcAccount = srcAccountId
