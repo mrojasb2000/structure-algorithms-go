@@ -20,3 +20,4 @@ Examples Data Structures and Algorithms with Golang
  * Adapter Patterns
  * Bridge Patterns
  * Composite Patterns
+ * Decorator Patterns
