@@ -24,3 +24,4 @@ Examples Data Structures and Algorithms with Golang
  * Facade Patterns
  * Flyweights Patterns
  * Private Class Data Patterns
+ * Proxy Patterns
