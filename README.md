@@ -27,3 +27,4 @@ Examples Data Structures and Algorithms with Golang
  * Proxy Patterns
  * Complexity Analysis of Algorithms
  * Linear Complexity
+ * Quadratic Complexity
