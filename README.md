@@ -25,3 +25,5 @@ Examples Data Structures and Algorithms with Golang
  * Flyweights Patterns
  * Private Class Data Patterns
  * Proxy Patterns
+ * Complexity Analysis of Algorithms
+ * Linear Complexity
